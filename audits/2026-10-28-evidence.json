@@ -1,0 +1,412 @@
+{
+  "verified_on": "2026-10-28",
+  "evidence_kind": "rendered official model cards; identifiers include aliases and do not establish live API access",
+  "cards": [
+    {
+      "source": "https://docs.mistral.ai/models/codestral-25-08",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "codestral-2508",
+        "codestral-latest"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "07f70f0003f105a435af6ea3bea7c243f6f08594141e0cb79d6ff1ecd8df0e73"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/codestral-embed-25-05",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "codestral-embed-2505",
+        "codestral-embed"
+      ],
+      "context_as_displayed": "8k",
+      "body_sha256": "297faa65a7728c9b71d85c8ee53bda243a6c7feb402385dbe79cea49409f9bbf"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/leanstral-1-5",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "labs-leanstral-1-5"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "b6b161d779891cbed83a7f7470a2cd7a5641108017f9d87f75aedf18ccad0830"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "ministral-14b-2512",
+        "ministral-14b-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "9a1317624dbee5b4bad7cf9ec3b2febb87e7a6184d15457d50c0a43dccfc5eba"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "ministral-3b-2512",
+        "ministral-3b-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "d6f9ad1309c8eade35ba533f27ba0a19c552c8291f77c9ec873a6bd0cae40e05"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "ministral-8b-2512",
+        "ministral-8b-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "ec3bed9d0a37773ea41bcc9ca29bfff2cb5a01a2f87a615f988e65f7c918eb06"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-embed-23-12",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-embed-2312",
+        "mistral-embed"
+      ],
+      "context_as_displayed": "8k",
+      "body_sha256": "85576580118c0c5e6bc962a9eb193a0157a1e96b4bf7d1a3ab81db111ba63d44"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-moderation-26-03",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-moderation-2603"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "20ce8e8cf0ecdfb63a6940bc919ad116213b8d15fc5512b116b7b0ffe4477f63"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/pixtral-large-24-11",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "pixtral-large-2411",
+        "pixtral-large-latest"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "8d7568dfbf13d1951dc19c70f1eed2a2579f30daf59b64dff3cf0c5fd8853184"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/shieldstral-1-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [],
+      "context_as_displayed": "32k",
+      "body_sha256": "6c0c7063bdd59d63f188575551f682225175782b1bd57e0bfa85ca31c652a296"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/timestral-1-0-123m",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [],
+      "context_as_displayed": "32K",
+      "body_sha256": "7999a16e5016598c3a76d086943c9117c3357f917c456139e4e60d64638abb6d"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/timestral-1-0-209m",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [],
+      "context_as_displayed": "32K",
+      "body_sha256": "b3bd56aa1129aba974694e0ca153495dbc6af6f5bddaef7b36f00b65d341ddf5"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/timestral-1-0-28m",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [],
+      "context_as_displayed": "32K",
+      "body_sha256": "21eb76f2b0b04335bec138301a0580ca9b14135dae9400342745f0b54a7fc5a8"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/timestral-1-0-5m",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [],
+      "context_as_displayed": "32K",
+      "body_sha256": "de9153087a85245ce3dd2183242d7c6139dacfd6395e6208a4a2c9498b8e127b"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-25-07",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "voxtral-mini-2507",
+        "voxtral-mini-latest"
+      ],
+      "context_as_displayed": "32k",
+      "body_sha256": "34fe11e833807fb7a414705899b9a11f48235e99e97c0aa65b3370b34bb6e8d8"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-transcribe-26-02",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "voxtral-mini-2602",
+        "voxtral-mini-latest"
+      ],
+      "context_as_displayed": "--",
+      "body_sha256": "490c0e91a37e1882c740a4542bcc179ab0a5b5162dd579c89237916c93040cb1"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [
+        "voxtral-mini-transcribe-3-0",
+        "voxtral-mini-transcribe-3",
+        "voxtral-mini-transcribe-latest"
+      ],
+      "context_as_displayed": "32k",
+      "body_sha256": "5c86edfb7e232cdfae2f9dceabdf8d76448c5e61af3e83a36d2a79e9d12011c0"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-26-02",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "voxtral-mini-transcribe-realtime-2602",
+        "voxtral-mini-realtime-latest"
+      ],
+      "context_as_displayed": "--",
+      "body_sha256": "068d2554924e63cca05932166dbcf86f70d5d3eb160f034292e818e13bd8f97a"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [
+        "voxtral-mini-transcribe-realtime-3-0",
+        "voxtral-mini-transcribe-realtime-3",
+        "voxtral-mini-transcribe-realtime-latest"
+      ],
+      "context_as_displayed": "--",
+      "body_sha256": "cb3c7218e2da16cbfb1e1e117e2d88154700d5f5da65a43a1a63ed087e51493f"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [
+        "voxtral-mini-tts-3-0",
+        "voxtral-mini-tts-3",
+        "voxtral-mini-tts-latest",
+        "voxtral-mini-tts-realtime-3-0",
+        "voxtral-mini-tts-realtime-3",
+        "voxtral-mini-tts-realtime-latest"
+      ],
+      "context_as_displayed": null,
+      "body_sha256": "8accccd43d2749526071c806b7d0696cf74ce643d3f251b7dcf13f607d6723be"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-small-25-07",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "voxtral-small-2507",
+        "voxtral-small-latest"
+      ],
+      "context_as_displayed": "32k",
+      "body_sha256": "a97578f86c442e13d690b6edb1187dc038c1a98064493e55fe3d76e5b363bd30"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-small-transcribe-3-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [
+        "voxtral-small-transcribe-3-0",
+        "voxtral-small-transcribe-3",
+        "voxtral-small-transcribe-latest"
+      ],
+      "context_as_displayed": "32k",
+      "body_sha256": "c474b0f4d3dfd4c0638dff9e1d72ab84e1147e6497d7d22e0499722cc8e671ce"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "voxtral-mini-tts-2603",
+        "voxtral-mini-tts-latest"
+      ],
+      "context_as_displayed": null,
+      "body_sha256": "f3893503e89701899184a87ca76781d03185cd239723bd890c6a700b38fb3f19"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/zai-glm-5-2",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "zai-glm-5-2"
+      ],
+      "context_as_displayed": "1M",
+      "body_sha256": "aa31f3bd9e0c7611af4cc07cd08aed7b1f3ba47dbde7c8b240bc3c9afcd38e80"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/zai-glm-5-3",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "zai-glm-5-3",
+        "zai-glm-5",
+        "zai-glm-latest"
+      ],
+      "context_as_displayed": "1M",
+      "body_sha256": "bb923291e764b072b213aebcda3001fa60a49148df63f763dd24bb8964896149"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/zai-glm-5-3-flash",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "zai-glm-5-3-flash"
+      ],
+      "context_as_displayed": "1M",
+      "body_sha256": "068595b220a220220fba2415edec9cdfade21a86db31dd51849376b56defd246"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "http_code": 200,
+      "stage": "Public Preview",
+      "api_identifiers": [
+        "mistral-large-4",
+        "mistral-large-4-0"
+      ],
+      "context_as_displayed": "1M",
+      "body_sha256": "3fa579e04ec5829167c4d24570d5ed62a6265d88bf00140633cd82b543707778"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-large-2512",
+        "mistral-large-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "b35611686e2da411dced426d320d910c9fe240a2f4d049e5495c6067ca99c87f"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-medium-3-5",
+        "mistral-medium-3",
+        "mistral-medium-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "98ddacebc1959bc5dd5fe9e0c046b4c2062dbeb2f2340db8ad6415992d61f926"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-small-2603",
+        "mistral-small-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "f9e7bb12d8b0da7ed5c10be9277c1afcb39bebd3795a737f6425e2f6c6dcac42"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "mistral-small-2506"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "5d79d75cb8db7bd184d4ca88ebea2f21df0e6227290173271e1b175376266f9c"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/ocr-4-1",
+      "http_code": 200,
+      "stage": "GA",
+      "api_identifiers": [
+        "mistral-ocr-4-1",
+        "mistral-ocr-4",
+        "mistral-ocr-latest"
+      ],
+      "context_as_displayed": null,
+      "body_sha256": "b39c881bafbc09d5a1a3e2d017d7416f3a009b50b3933739c7ca6407978a66a4"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/ocr-4-0",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "mistral-ocr-4-0"
+      ],
+      "context_as_displayed": null,
+      "body_sha256": "9691ffea660ad268d5c9ed0191b116f8f9007b4da73f4f82e6cc7128344e610a"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "magistral-small-2509",
+        "magistral-small-latest"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "174dd385b4d2e91c69f460080b66b931fb18a81a3a1e349fae47288807b3ac23"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "devstral-2512",
+        "devstral-latest",
+        "devstral-medium-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "1677cf18f280e8356077579549b4960b80b33b9d23207edff85af9a51ef02141"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/devstral-small-2-25-12",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "labs-devstral-small-2512",
+        "devstral-small-latest"
+      ],
+      "context_as_displayed": "256k",
+      "body_sha256": "656421863f44b47be0fb0a567eed9bb96b39aa0935dc221f83b087c648f7b03e"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/pixtral-12b-24-09",
+      "http_code": 200,
+      "stage": "Deprecated",
+      "api_identifiers": [
+        "pixtral-12b-2409"
+      ],
+      "context_as_displayed": "128k",
+      "body_sha256": "199e19bc10f98642dd23d1eec7853a84a97332521bcdb1a6f7009510133175be"
+    },
+    {
+      "source": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+      "http_code": 200,
+      "stage": "Retired",
+      "api_identifiers": [
+        "open-mixtral-8x22b"
+      ],
+      "context_as_displayed": "64k",
+      "body_sha256": "e4d348e1362cf06a684f9ae7d93c803de35bf8397846d130476a6cb1beab4a37"
+    }
+  ]
+}

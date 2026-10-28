@@ -62,14 +62,14 @@ to establish a model's status during routine maintenance.
 ## Reproducible checks
 
 Prerequisites: Python 3.11+, authenticated GitHub CLI, Lychee **0.24.2**, and
-markdownlint-cli2 **0.23.2** (the version bundled by the pinned CI action). CI pins
+markdownlint-cli2 **0.24.0** (the version bundled by the pinned CI action). CI pins
 the action wrappers separately by commit SHA.
 Use published tools from their upstreams; check downloaded release checksums.
 
 ```sh
 python3 scripts/check_content.py
 python3 -m unittest discover -s scripts -p 'test_*.py'
-npx --yes markdownlint-cli2@0.23.2
+npx --yes markdownlint-cli2@0.24.0
 mkdir -p audit-output
 git ls-files -- '*.md' '.github/ISSUE_TEMPLATE/*.yml' > audit-output/link-inputs.txt
 lychee --config lychee.toml --no-progress --verbose --format json --output audit-output/links.json --files-from audit-output/link-inputs.txt

@@ -46,7 +46,7 @@ A successful link check alone does not constitute an editorial review.
 | Models and lifecycle | [Catalog](https://docs.mistral.ai/models), [lifecycle policy](https://docs.mistral.ai/inference/model-lifecycle), individual model cards |
 | API changes and pricing | [Changelog](https://docs.mistral.ai/resources/changelogs), [pricing](https://docs.mistral.ai/inference/pricing) |
 | Product availability | [Release notes](https://docs.mistral.ai/resources/release-notes) |
-| Model specifications | [Model schemas](https://github.com/mistralai/platform-docs-public/tree/main/src/schema/models/models) behind the catalog; compare against the previous review's commit |
+| Model specifications | Version-specific cards linked from the [catalog](https://docs.mistral.ai/models), plus weight cards and license files. Compare with the previous audit; use schema commits only when their public source is retrievable |
 | Model weights | [Mistral on Hugging Face](https://huggingface.co/mistralai), individual model cards and licenses |
 | SDKs | [Python releases](https://github.com/mistralai/client-python/releases), [TypeScript releases](https://github.com/mistralai/client-ts/releases) |
 | Coding agent and CLI | [Vibe releases](https://github.com/mistralai/mistral-vibe/releases), [Mistral CLI releases](https://github.com/mistralai/cli/releases) |
@@ -123,9 +123,12 @@ a 200 response may still be a login or anti-bot page.
 
 ## Scheduling and failure handling
 
-The scheduled editorial task performs research, edits and a reviewable PR in this
-repository every Sunday at 07:00 UTC (09:00 Europe/Paris in summer time). It runs
-in a hosted automation environment and depends on that account's usage limits,
+Configure the editorial task to perform research, edits and a reviewable PR in
+this repository every Sunday at 09:00 Europe/Paris using the scheduler's timezone
+support. A fixed 07:00 UTC schedule matches 09:00 Paris only in summer; it runs
+at 08:00 Paris in winter. Verify the actual hosting account's configured timezone
+and last successful execution rather than inferring them from this playbook.
+The task runs in a hosted automation environment and depends on its usage limits,
 network access and repository permissions; a run that stops before research is a
 missed review, not a quiet week. On its next run after a missed review, cover
 the entire gap since the last successful editorial review.

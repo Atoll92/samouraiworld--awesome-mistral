@@ -2,7 +2,7 @@ name: Repository Quality
 
 on:
   schedule:
-    - cron: '17 7 * * 0' # Sunday 07:17 UTC; editorial task runs at 09:00 Europe/Paris.
+    - cron: '17 7 * * 0' # Sunday 08:17 Paris in winter, 09:17 in summer.
   push:
     branches: [main]
   pull_request:
